@@ -1,5 +1,6 @@
 # The Signalling Server for LiveLab
-This repo is linked directly with the project **LiveLab** by CultureHub at https://github.com/CultureHub/LiveLab
+This repo guides you to set up your own signalling server if you want to clone and modify the open-sourced project **LiveLab** by CultureHub at https://github.com/CultureHub/LiveLab
+
 For more up-to-dated content about self-hosting Livelab server, please check here at https://github.com/CultureHub/LiveLab_server
 
 
