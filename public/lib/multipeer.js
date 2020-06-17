@@ -1,4 +1,6 @@
-var io = require('socket.io-client'),
+var //io = require('socket.io-client'),
+    io = require('socket.io-client'),
+//modified io
     SimplePeer = require('simple-peer'),
     extend = Object.assign
 
@@ -33,7 +35,6 @@ MultiPeer.prototype.send = function(data){
   Object.keys(this.peers).forEach(function(id) {
     this.peers[id].send(data)
   }, this)
-  console.log("data sent");
 }
 
 //Once the new peer receives a list of connected peers from the server,
